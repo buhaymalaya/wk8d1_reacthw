@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #76ad54; 
+    padding: 10px 20px; 
+   
+  }
+  
+  .logo a {
+    color: #f3ed4d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px; 
+    text-decoration: none; 
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .nav-links li {
+    display: inline-block; 
+    margin-right: 20px; 
+  }
+
+  
+  .nav-links li a {
+    color: #fff; 
+    text-decoration: none; 
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline; 
+  }
+  

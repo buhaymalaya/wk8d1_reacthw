@@ -1,0 +1,93 @@
+component based application
+taking sections out and create components
+
+why react?
+bc of its reactivity
+
+faster than vanilla:
+js has to refresh entire doc with updates
+
+react has virtual dom
+much faster with updates
+by looking at each component
+only updates the components that have changes
+
+server/client folders
+
+use vite to create boiler plate 
+
+vitejs.dev/guide
+
+- will use js for react bc we jjust learned typescrit 
+
+terminal
+npm create vite@latest week8-client -- --template react
+
+Now run:
+
+  cd week8-client
+  npm install
+  npm run dev
+
+  click on local link
+
+  Notice: count button, when clicked, nothing else is refreshing
+
+think one folder per css per page
+
+functional components > class
+js function that returns jsx code
+jsx looks like html
+function App()
+
+main.jsx
+starting point of application
+root component 
+<App /> - self closing
+
+REACT is a single page application
+routing system can make it look like we have several pages but they are displayed from one single html file
+
+install dependencies
+think: bootstrap
+npm install bootstrap react-bootstrap
+
+use an import for react bootstrap
+at main.jsx
+import 'bootstrap/dist/css/bootstrap.min.css
+
+https://react-bootstrap-v4.netlify.app/components/alerts/
+
+cmd shift p
+open user settings json
+"emmet.includeLanguages": {
+        "jinja-html": "html",
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+    
+extensions
+react snippets
+
+jsx can only return one node so other nodes or tags
+must be children
+
+react fragment
+gives illusion that there is an existing single parent node
+<>
+</>
+just for building purposes
+
+dynamic rendering
+take js variables and take those values to display/plug them in the jsx
+sort of bind them together
+
+components are reusable when singular functioned
+
+under src folder, create components
+then Header.jsx
+Posts.jsx
+SinglePost.jsx
+
+also for styling:
+npm install react-bootstrap bootstrap @mui/material @emotion/react @emotion/styled

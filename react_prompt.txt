@@ -1,0 +1,6 @@
+Using the skills we talked about today, start the process of creating another React 'app' from scratch,
+
+Your project by the end of the homework should have: (At Minimum)
+- 3 Components (Build out a landing page and maybe a styled out nav bar)
+- Styled with basic CSS, React-Bootstrap, and/or Material-UI
+
