@@ -36,3 +36,9 @@ form {
   button[type="submit"]:hover {
     background-color: #43e316; 
   }
+
+  .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

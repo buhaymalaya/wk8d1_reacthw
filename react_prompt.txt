@@ -1,6 +1,25 @@
-Using the skills we talked about today, start the process of creating another React 'app' from scratch,
+Using the skills we talked about today, 
+start the process of creating another React 'app' from scratch,
 
 Your project by the end of the homework should have: (At Minimum)
 - 3 Components (Build out a landing page and maybe a styled out nav bar)
 - Styled with basic CSS, React-Bootstrap, and/or Material-UI
 
+Updating State Exercise
+- Incorporate state into an aspect of your application.  You can do this anyway you'd like but we should be able to change the initial state set and see those changes rendered on the page.  There's an example of starter code below you could incorporate if you like that was used to store information about the current player in a web game app.
+Starter code example:
+const Component = () => {
+    const [game, setGame] = useState({
+        id: 1,
+        player: {
+            name: "Dylan"
+        }
+     })
+
+    const handleClick = () => {
+        // your code here
+    }
+
+    return (
+        // your JSX here
+    )
