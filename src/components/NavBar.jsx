@@ -6,12 +6,12 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <a href="/">[mahalo]</a>
+        <a href="/">[motion picture club]</a>
       </div>
       <ul className="nav-links">
-        <li><a href="/">Mainland</a></li>
-        <li><a href="/about">Who We Are</a></li>
-        <li><a href="/contact">Reach Out</a></li>
+        <li><a href="/movie">My Movies</a></li>
+        <li><a href="/movie">Fellow Directors</a></li>
+        <li><a href="/movie">Let's Talk</a></li>
       </ul>
     </nav>
   );

@@ -6,11 +6,11 @@ export default function Landing() {
   return (
     <div className="landing-page">
       <header>
-        <h1>Mabuhay Aloha Kapatid</h1>
+        <h1>Motion Picture Club</h1>
       </header>
       <section className="main-content">
         
-        <p>Enter your information below for a chance to win free coconuts for life!</p>
+        <p>Sign up to share your latest films with fellow directors.</p>
       </section>
       
     </div>
